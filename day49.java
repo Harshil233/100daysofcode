@@ -3,7 +3,7 @@ class Solution
 	public List<Integer> grayCode(int n) 
 	{
 
-		int edge = 1 << n; // (1 << n) == 2 ** n
+		int edge = 1 << n; 
 		Integer[] ans = new Integer[edge];
 		ans[0] = 0;
 		int lngth = 1; 
